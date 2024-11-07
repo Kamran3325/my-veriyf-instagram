@@ -3,7 +3,7 @@ let countdown = document.getElementById('countdown');
 let blowout = document.getElementById('blowout');
 let flames = document.querySelectorAll('.flame');
 let birthdayMessage = document.getElementById('birthday-message'); // Doğum günü mesajı
-let timeLeft = 3;
+let timeLeft = 10;
 
 function updateTimer() {
     countdown.textContent = timeLeft;
