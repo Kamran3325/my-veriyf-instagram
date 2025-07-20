@@ -1,38 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tebrikleeer Dərya</title>
+    <title>Təbriklər Dərya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cake">
-        <div class="plate"></div>
-        <div class="layer layer-bottom"></div>
-        <div class="layer layer-middle"></div>
-        <div class="layer layer-top"></div>
-        <div class="icing"></div>
-        <div class="drip drip1"></div>
-        <div class="drip drip2"></div>
-        <div class="drip drip3"></div>
-        <div class="candle">
-            <div class="flame" id="flame1"></div>
+    <div class="main-container">
+        <div class="cake">
+            <div class="plate"></div>
+            <div class="layer layer-bottom"></div>
+            <div class="layer layer-middle"></div>
+            <div class="layer layer-top"></div>
+            <div class="icing"></div>
+            <div class="drip drip1"></div>
+            <div class="drip drip2"></div>
+            <div class="drip drip3"></div>
+            <div class="candle">
+                <div class="flame" id="flame1"></div>
+            </div>
+            <div class="candle">
+                <div class="flame" id="flame2"></div>
+            </div>
+            <div class="candle">
+                <div class="flame" id="flame3"></div>
+            </div>
         </div>
-        <div class="candle">
-            <div class="flame" id="flame2"></div>
-        </div>
-        <div class="candle">
-            <div class="flame" id="flame3"></div>
+
+        <div id="birthday-message" class="hidden animated-text">
+            Dərya yeni yaşın uğurlu olsun ne arzu istəyin varsa gerceklesdirersen inşallah derya senin yerin mende hemişe ayrı olub her seher açanda ağlıma ilk sen gelirsen seni heç  vaxt unutmuyacam gelecekde kimnense sevgilim olsa bele onun elini tutanda hemişe aglıma sen gelecen neseeeeeee yeqinki blokdayam bunu oxuyanda yeqinki blokdan çıxmış olacam yada her neyse öpüremmm saolllll :)....
         </div>
     </div>
-    <div id="countdown">
-        <span id="timer">10</span>
+
+    <div id="countdown-container">
+        <span id="countdown">10</span>
     </div>
-    <div id="blowout" class="hidden">
+    
+    <div id="blowout" class="hidden animated-text">
         Üfüüürrr
     </div>
-    <div id="birthday-message" class="hidden">Dərya yeni yaşın uğurlu olsun ne arzu istəyin varsa gerceklesdirersen inşallah derya senin yerin mende hemişe ayrı olub her seher açanda ağlıma ilk sen gelirsen seni heç  vaxt unutmuyacam gelecekde kimnense sevgilim olsa bele onun elini tutanda hemişe aglıma sen gelecen neseeeeeee yeqinki blokdayam bunu oxuyanda yeqinki blokdan çıxmış olacam yada her neyse öpüremmm saolllll :)....</div> <!-- Bu yeni əlavə olunan mesaj -->
+
     <script src="script.js"></script>
 </body>
 </html>
